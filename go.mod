@@ -1,4 +1,4 @@
-module github.com/Anon-404/GDarkPath
+module github.com/Anon-404/GoFuzzer 
 
 go 1.23.0
 
