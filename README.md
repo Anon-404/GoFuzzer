@@ -7,12 +7,24 @@
 </div>
 
 ## Features ✨
-- 🔍 **Network Scanning and OS Detection**
-- ⚡ **Faster Scanning:** Scans 65,535 ports quicker than Nmap
-- 🌐 **DNS Lookup**
-- 🕵️‍♂️ **Whois Lookup**
-- 🎯 **User-Friendly Interface**
-- 📖 **Comprehensive User Manual**
+
+- 🔍 **Web Directory Brute-Forcing**  
+  Performs targeted brute-forcing to discover hidden directories and files on a web server.
+
+- ⚡ **Efficient Scanning:**  
+  Utilizes concurrent requests to speed up the scanning process, allowing for faster discovery of paths and files.
+
+- 🌐 **Customizable Options:**  
+  Choose between different scanning modes such as showing all responses, success responses, redirections, or informational responses.
+
+- 🕵️‍♂️ **Detailed Status Reporting:**  
+  Provides comprehensive feedback on server responses with color-coded status codes for easy identification.
+
+- 🎯 **User-Friendly Interface:**  
+  Includes a clear and concise command-line interface with helpful usage instructions and examples.
+
+- 📖 **Comprehensive User Manual:**  
+  Well-documented help and version information to assist users in navigating and utilizing the tool effectively.
 
 ## Installation 🛠️
 
