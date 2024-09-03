@@ -78,34 +78,64 @@
 ## Usage 🧑‍💻
 
 ```bash
-GoMapper <option> <domain/ip>
+GoFuzzer <option> <domain> <wordlist>
 ```
 
 ### Main Options:
+
 - **`-a`, `--all [domain]`**  
-  🔗 **Perform all actions**  
-  Executes network scan, DNS lookup, and WHOIS lookup in a single command.
+  🔗 **Show All Responses**  
+  Displays all responses from the server, including status codes ranging from 100 to 599.
 
-- **`-n`, `--networkScan [domain]`**  
-  🌐 **Network Scan**  
-  Performs a thorough network scan, including IP, port scanning, and OS detection.
+- **`-s`, `--success [domain]`**  
+  ✅ **Show Success Responses**  
+  Filters and displays only successful responses with status codes in the range of 200 to 299.
 
-- **`-d`, `--dnslookup [domain]`**  
-  🛠 **DNS Lookup**  
-  Retrieves detailed DNS records for the specified domain.
+- **`-r`, `--redirect [domain]`**  
+  🔄 **Show Redirections**  
+  Shows responses that indicate redirections with status codes between 300 and 399.
 
-- **`-w`, `--whoislookup [domain]`**  
-  🔍 **Whois Lookup**  
-  Gathers WHOIS registration data for the specified domain.
+- **`-i`, `--information [domain]`**  
+  ℹ️ **Show Informational Responses**  
+  Displays responses with informational status codes, ranging from 100 to 199.
+
+- **`-d`, `--debug [domain]`**  
+  🛠 **Debug Mode**  
+  Enables debugging mode to show detailed responses for all status codes from 100 to 599.
 
 ### Additional Options:
+
 - **`-h`, `--help`**  
   📝 **Help**  
-  Displays this help page with descriptions of all available commands.
+  Displays this help page with descriptions of all available commands and options.
 
 - **`-v`, `--version`**  
   🆚 **Version**  
-  Prints the current version number of GoMapper.
+  Prints the current version number of GoFuzzer.
+
+### Examples:
+
+- **Show all responses:**
+  ```bash
+  GoFuzzer -a example.com wordlist.txt
+  ```
+
+- **Show only successful responses:**
+  ```bash
+  GoFuzzer -s example.com wordlist.txt
+  ```
+
+- **Show only redirections:**
+  ```bash
+  GoFuzzer -r example.com wordlist.txt
+  ```
+
+- **Enable debugging mode:**
+  ```bash
+  GoFuzzer -d example.com wordlist.txt
+  ```
+
+For more information or assistance, use the `-h` option to display help page.
 
 
 ## Contributions 🤝
