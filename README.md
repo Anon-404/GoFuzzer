@@ -3,7 +3,7 @@
 *Written in Go*
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Anon-404/My-assets/main/GoMapper/GoMapper.jpg" alt="GoMapper Logo" width="200"/>
+  <img src="https://raw.githubusercontent.com/Anon-404/My-assets/main/GoFuzzer/GoFuzzer.jpg" alt="GoMapper Logo" width="200"/>
 </div>
 
 ## Features ✨
